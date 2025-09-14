@@ -1,0 +1,208 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nata+Sans:wght@100..900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nata Sans", sans-serif;
+}
+
+.navSection{
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  background-color: blue;
+  align-items: center;
+  color: white;
+  padding: 0 20px;
+  font-size: small;
+
+}
+
+.sideBarSection{
+  border: 1px solid black;
+  width: 100%;
+  max-width: 15%;
+  height: 95vh;
+  padding-top: 10px;
+  background-color: lightgray;
+}
+.sideBarSection ul li{
+  list-style: none;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: small;
+  cursor: pointer;
+}
+.collectionSection{
+  display: flex;
+}
+/* Login Section*/
+
+.loginSection{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.authForm{
+  width: 100%;
+  max-width: 400px; /* fix width */
+  margin: 50px auto; /* center with top margin */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid gray;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+  background-color: #fff;
+}
+
+.authForm input{
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.authForm label {
+  width: 100%;
+  margin-bottom: 2px;
+  font-weight: 500;
+}
+.authForm button{
+  width: 100%;
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.registerSection{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.authForm button:hover {
+  background-color: #0056b3;
+}
+/* Add Firm section design */
+.firmSection{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: darkorange;
+}
+.tableForm{
+  width: 100%;
+  max-width: 50%; /* fix width */
+  border-radius: 8px;
+}
+.tableForm input {
+   width: 100%;
+  max-width: 55%;
+}
+.tableForm button{
+  width: 100%;
+  padding: 8px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+}
+/* Add Product section design */
+.productSection{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: darkorange;
+}
+.productForm{
+  width: 100%;
+  max-width: 50%; /* fix width */
+  border-radius: 8px;
+}
+.productForm input {
+  width: 100%;
+  max-width: 55%;
+}
+/*Checkbox and Radio button design */
+.check-inp {
+  display: flex;
+  align-items: center;   /* vertically centers label + inputs */
+  width: 100%;
+  max-width: 97%;/* border adjacing space*/
+  border: 2px solid pink;
+  padding: 8px;
+  gap: 2px;  /* spacing between label and radios */
+}
+
+.check-inp label {
+  width: auto;     /* let label size adjust automatically */
+  min-width: 60px; /* optional: keeps "Category" fixed */
+  font-weight: 500;
+}
+
+.inputContainer {
+  display: flex;
+  align-items: center;
+  gap: 5px;        /* spacing between options */
+  border: 1px solid green;
+  padding: 5px;
+}
+
+.radioContainer {
+  display: flex;
+  align-items: center;   /* vertically center radio + text */            /* space between each option */
+  white-space: nowrap;   /* prevent text from breaking */
+}
+
+.radioContainer label {
+  display: flex;
+  align-items: center;   /* keeps radio + text aligned */             /* small space between radio and text */
+}
+
+/* All Product Tables*/
+.product-table{
+  border: 2px solid red;
+  width: 80vw;
+  border-collapse: collapse;
+  margin-top: 50px;
+}
+.product-table th,
+.product-table td{
+  border: 1px solid violet;
+  padding: 8px;
+
+}
+.product-table th{
+  text-align: left;
+  background-color: #ccc;
+}
+
+/* Not Found */
+.errorSection{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.errorSection h1{
+  font-size: 4rem;
+}
+
